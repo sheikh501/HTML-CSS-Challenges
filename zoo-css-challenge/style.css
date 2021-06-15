@@ -8,6 +8,9 @@ header {
   width: 100%;
   padding: 20px;
 }
+#logo{
+  border-color: #56e39f;
+}
 
 nav {
   display: inline-block;
@@ -76,8 +79,53 @@ footer {
 }
 
 .introduction {
+  background-color: white;
 }
 
+#beara{
+  border-color: red;
+  vertical-align: text-top;
+}
+#bearb{
+  border-color: indigo;
+}
+#bearc{
+  border-color: blue;
+}
+.tgr1{
+  color: #eb670f;
+}
+.giraffe {
+  background-color: #483C46;
+  color: #56e39f;
+}
+
+.clsa{
+ color: #F4743B;
+}
+.clsb{
+  color: #F4743B;
+ }
+ .clsc{
+  color: #F4743B;
+ }
+ .grf{
+  font-size: 20px;
+ }
+ .card{
+   position: center;
+ }
+ .education-container button{
+   font-size:larger;
+   border-radius: 10px;
+ }
+ .hover:hover{
+   color: #20c5ee;
+
+ }
+.hover:focus{
+  color: #eb670f;
+}
 #badge {
   height: 120px;
   width: 120px;
@@ -87,15 +135,17 @@ footer {
   position: fixed;
   bottom: 20px;
   right: 20px;
-
+  margin-bottom: 420px;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  
 }
 
 #badge:hover {
   background-color: yellow;
+  transition-duration: 3s;
 }
 
 #badge p {
@@ -116,16 +166,6 @@ footer {
   background-color: #0b3c49;
   color: #f0e100;
 }
-
-.giraffe {
-  background-color: #465775;
-  color: #56e39f;
-}
-
-.giraffe h2 {
-  color: #ef6f6c;
-}
-
 .card {
   display: inline-block;
   background-color: white;
@@ -161,7 +201,10 @@ footer {
   background-position: center;
   padding: 100px 5%;
 }
-
+.membership p{
+  max-width: 700px;
+  margin-left: 240px;
+}
 .education-container {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
@@ -188,8 +231,18 @@ footer {
   color: #ff7f11;
 }
 
+
 /*Programs*/
 
 .programs .card {
-  display: block;
+  display: inline-block;
+}
+.imagesb{
+  display: inline-block;
+}
+
+/*News*/
+.nws{
+  margin-left: 600px;
+
 }
